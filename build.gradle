@@ -28,14 +28,15 @@ allure {
 }
 
 ext {
-    junitVersion = '5.7.1'
+    junitVersion = '5.7.2'
 }
 
 dependencies {
     testImplementation ("org.junit.jupiter:junit-jupiter-api:${junitVersion}",
-            "com.codeborne:selenide:5.22.3")
+            'com.codeborne:selenide:5.23.2',
+            "io.qameta.allure:allure-selenide:2.14.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}",
-            'org.slf4j:slf4j-simple:1.7.30')
+            'org.slf4j:slf4j-simple:1.7.32')
 }
 
 test {

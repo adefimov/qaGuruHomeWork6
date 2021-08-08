@@ -7,8 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 public class SelenideTest {
 
-
-        private static final String REPOSITORY = "Kaspok/QA_task_6";
+  private static final String REPOSITORY = "adefimov/qaGuruHomeWork6";
 
         @Test
         void searchIssue() {
